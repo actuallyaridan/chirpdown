@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Jost; /* Font family */
+    src: url(fonts/Jost.ttf); /* Font source */
+}
+
+html,
+body,
+main,
+footer {
+    font-family: Jost, Arial, Helvetica, sans-serif; /* Font family */
+    background-color: black; /* Background color */
+    color: white; /* Text color */
+    scroll-behavior: smooth; /* Smooth scrolling */
+    color-scheme: dark; /* Dark color scheme */
+}
+
+body {
+    display: flex;
+    overflow-y: scroll; /* Vertical overflow */
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+main{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: underline;
+    color: white;
+}
+
+.subText {
+    color: #8b8b8b; /* Text color */
+    margin-top: 0px; /* Top margin */
+    font-family: Jost;
+}
